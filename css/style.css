@@ -238,7 +238,6 @@ ul {
 /* section-team */
 .section-team {
   background-color: var(--btn-background-color);
-  padding-top: 94px;
 }
 .our-team {
   --items: 4;
@@ -325,7 +324,38 @@ ul {
 .social-media-link {
   fill: currentColor;
 }
-
+/* наші клієнти */
+.section.сlient {
+  padding-bottom: 84px;
+}
+.list-client {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.box-client {
+  display: flex;
+  width: 170px;
+  height: 92px;
+}
+.box-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  color: #afb1b8;
+  border-radius: 4px;
+}
+.box-link {
+  fill: currentColor;
+}
+.box-link:hover,
+.box-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
 /* footer */
 .footer {
   background-color: var(--hero-background-color);
@@ -363,13 +393,17 @@ ul {
   margin-left: 70px;
 }
 .slogan-footer {
-text-transform: uppercase;
-color: var(--main-background-color);
+  text-transform: uppercase;
+  color: var(--main-background-color);
 }
 .footer-social-list {
   list-style: none;
   display: flex;
   margin-top: 20px;
+}
+.footer-social-link {
+  color: var(--main-background-color);
+  background-color: #4e4e55;
 }
 
 /* page-2 */
