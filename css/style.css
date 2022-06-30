@@ -114,8 +114,10 @@ ul {
 .contact .link-contact {
   display: flex;
   align-items: center;
+  font-weight: 500;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--titel-text-color);
 }
 
 .site-nav {
@@ -128,9 +130,6 @@ ul {
   display: block;
   padding-top: 33px;
   padding-bottom: 31px;
-}
-.link-contact {
-  color: var(--titel-text-color);
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -287,13 +286,13 @@ ul {
   line-height: 1.18;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .social-media-list {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 .social-media-item:not(:last-child) {
   margin-right: 10px;
@@ -382,6 +381,9 @@ ul {
   line-height: 1.71;
   color: var(--main-background-color);
 }
+.link-address {
+  margin-bottom: 9px;
+}
 .link-footer {
   text-decoration: none;
   font-style: normal;
@@ -394,6 +396,7 @@ ul {
   margin-left: 70px;
 }
 .slogan-footer {
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
